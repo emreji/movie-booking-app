@@ -1,0 +1,57 @@
+#movie-img {
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+#movie-img img {
+    width: 100%;    
+    height: 450px;
+}
+
+#movie-info-short {
+    width: 60%;
+    float: right;
+    margin: 25px;
+}
+
+.movie-title {
+	font-size: 2.5em;
+}
+
+#movie-info {
+	margin-left: 20px;
+    clear: both;
+}
+
+.movie-detail {
+    padding: 20px;
+}
+
+.bookBtn {
+	width: 15%;
+	margin-left: 45px;
+}
+
+.bookBtn:hover {
+	width: 15%;
+	margin-left: 45px;
+}
+
+.length {
+    margin-top: 30px;
+}
+
+.genre {
+    font-weight: bold;
+}
+
+.login-msg {
+	color: indianred;
+    margin-left: 45px;
+    font-size: x-large;
+}
+
+.confirmBooking {
+	color: rebeccapurple;
+}

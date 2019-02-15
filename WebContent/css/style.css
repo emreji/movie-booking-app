@@ -1,0 +1,164 @@
+html {
+	height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+    background: linear-gradient(rgba(109, 111, 115, 0.6),rgba(109, 111, 115, 0.6)), url(../images/background.jpg);
+    background-size: cover;
+    
+}
+
+/* inside container */
+
+header {
+    height: 170px;
+}
+
+.insideBody {
+    margin: 2.5% 0 0 0;
+    padding: 0 0 10% 0;
+    
+}
+
+#container {
+    background-color: azure;
+    
+}
+
+.logo {
+    width: 20%;
+    font-family: 'Lobster', cursive;
+    font-size: 65px;
+    color: #714A7C;
+    padding: 10px;
+    float: left;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 42%;
+}
+
+.logo-text {
+    font-size: 4rem;
+    width: 50%;
+}
+
+.navigation-links {
+    padding-top: 40px;
+    
+}
+
+.navigation-links a {
+    color: rebeccapurple;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.navigation-links a:hover {
+    background-color: rebeccapurple;
+    color: azure;
+}
+
+.navigation-links input {
+    color: rebeccapurple;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: azure;
+    border: none;
+    cursor: pointer;
+}
+
+.welcome-user {
+	cursor: default;
+}
+
+.navigation-links input:hover {
+    background-color: rebeccapurple;
+    color: azure;
+}
+
+.search {
+    width: 25%;
+    float: right;
+    margin-top: 4%;
+    padding-right: 2%;
+}
+
+.search form {
+    width: -webkit-fill-available;
+}
+
+.search input {
+    width: 100%;
+}
+
+.movie-name {
+    text-align: center;
+    margin: 5%;
+    width: 90%;
+}
+
+.registerSuccess {
+	width: fit-content;
+}
+
+.showtime-btn {
+    background-color: crimson;
+    margin: 10px;
+    color: azure;
+    width: 90%;
+}
+
+.showtime-btn:hover {
+    background-color: azure;
+    border: 1px solid crimson;
+    margin: 10px;
+    color: crimson;
+}
+
+.movies {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.movies li {
+    list-style: none;
+    width: 22.9%;
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+.button-link {
+    background-color: rebeccapurple;
+    color: azure;
+}
+
+footer {
+    background-color: #545154;
+    color: white;
+    padding: 90px 0 0 20px;
+    height: 150px;
+    font-size: 0.8em;
+    clear: both;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+}
+
+.nomatch {
+	background-color: azure;
+}
